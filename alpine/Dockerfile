@@ -18,7 +18,7 @@ RUN apk add --no-cache --virtual .build-deps \
 
 RUN git clone https://github.com/tdlib/td.git && \
     cd td && \
-    git checkout v1.7.0 && \
+    git checkout 302e594 && \
     mkdir build && \
     cd build && \
     cmake -DCMAKE_BUILD_TYPE=Release .. && \

@@ -1,4 +1,4 @@
-name: Build and Publish buster image
+name: Docker Buster
 on:
   push:
     tags:
@@ -25,7 +25,6 @@ jobs:
             jasonkhew96/tdlib
             ghcr.io/jasonkhew96/tdlib
           tags: |
-            type=ref,event=tag
             type=semver,pattern={{version}}
       - name: Log in to Docker Hub
         uses: docker/login-action@v1

@@ -1,15 +1,15 @@
-# wcsiu/tdlib
-[![DockerHub](https://img.shields.io/docker/cloud/automated/wcsiu/tdlib)](https://hub.docker.com/r/wcsiu/tdlib/)
-[![DockerHub](https://img.shields.io/docker/cloud/build/wcsiu/tdlib)](https://hub.docker.com/r/wcsiu/tdlib/builds)
+# JasonKhew96/tdlib
+[![DockerHub](https://img.shields.io/docker/cloud/automated/JasonKhew96/tdlib)](https://hub.docker.com/r/JasonKhew96/tdlib/)
+[![DockerHub](https://img.shields.io/docker/cloud/build/JasonKhew96/tdlib)](https://hub.docker.com/r/JasonKhew96/tdlib/builds)
 
 <div><img src="https://telegram.org/img/t_logo.svg?1"
      alt="Telegram icon"/></div>
 
 
-`wcsiu/tdlib` contains Telegram TDLib and all the required dependencies.
+`JasonKhew96/tdlib` contains Telegram TDLib and all the required dependencies.
 
 # Docker hub repository
-https://hub.docker.com/r/wcsiu/tdlib
+https://hub.docker.com/r/JasonKhew96/tdlib
 
 # Shared Tags
 * [`1.7.0`, `1.7`, `1`, `latest`][1.7-Dockerfile]
@@ -25,7 +25,7 @@ https://core.telegram.org/tdlib
 # How to use this image
 
 ## Alpine example
-https://github.com/wcsiu/telegram-client-demo
+https://github.com/JasonKhew96/telegram-client-demo
 
-[1.7-Dockerfile]: https://github.com/wcsiu/tdlib/blob/v1.7.0/1.7/buster/Dockerfile
-[1.7-alpineDockerfile]: https://github.com/wcsiu/tdlib/blob/v1.7.0/1.7/alpine/Dockerfile
+[1.7-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.0/1.7/buster/Dockerfile
+[1.7-alpineDockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.0/1.7/alpine/Dockerfile

@@ -1,11 +1,11 @@
-FROM alpine:3.12
+FROM alpine:3.13
 
 WORKDIR /
 
-RUN apk add --no-cache \
+RUN apk add --update \
         ca-certificates
 
-RUN apk add --no-cache --virtual .build-deps \
+RUN apk add --update --virtual .build-deps \
         g++ \
         make \
         cmake \
@@ -14,13 +14,19 @@ RUN apk add --no-cache --virtual .build-deps \
         libressl-dev \
         zlib-dev \
         zlib-static \
-        linux-headers;
+        linux-headers \
+        alpine-sdk \
+        openssl-dev \
+        php
 
 RUN git clone https://github.com/tdlib/td.git && \
     cd td && \
     git checkout 5bd0c2c46ded5c75a641829cfe84c0b5fead5bfc && \
     mkdir build && \
     cd build && \
-    cmake -DCMAKE_BUILD_TYPE=Release .. && \
-    cmake --build . && \
-    make install
+    cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr/local .. && \
+    cmake --build . --target prepare_cross_compiling && \
+    cd .. && \
+    php SplitSource.php && \
+    cd build && \
+    cmake --build . --target install

@@ -12,8 +12,4 @@ RUN git clone https://github.com/tdlib/td.git && \
     mkdir build && \
     cd build && \
     cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr/local .. && \
-    cmake --build . --target prepare_cross_compiling && \
-    cd .. && \
-    php SplitSource.php && \
-    cd build && \
     cmake --build . --target install

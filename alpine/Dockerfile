@@ -10,7 +10,7 @@ RUN apk add --update --virtual .build-deps \
 
 RUN git clone https://github.com/tdlib/td.git && \
     cd td && \
-    git checkout 5bd0c2c46ded5c75a641829cfe84c0b5fead5bfc && \
+    git checkout 24e5803b969b15c286e8e501f6b66446b32f2b09 && \
     mkdir build && \
     cd build && \
     cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr/local .. && \

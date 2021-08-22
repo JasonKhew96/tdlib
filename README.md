@@ -16,7 +16,7 @@ https://hub.docker.com/r/jasonkhew96/tdlib
 * [`1.7.6-alpine`, `latest-alpine`, `latest`][1.7.6-alpine-Dockerfile]
 * [`1.7.6-buster`, `latest-buster`][1.7.6-alpine-Dockerfile]
 * [`1.7.5-alpine`][1.7.5-alpine-Dockerfile]
-* [`1.7.4-buster`][1.7.5-alpine-Dockerfile]
+* [`1.7.5-buster`][1.7.5-alpine-Dockerfile]
 * [`1.7.4-alpine`][1.7.4-alpine-Dockerfile]
 * [`1.7.4-buster`][1.7.4-buster-Dockerfile]
 

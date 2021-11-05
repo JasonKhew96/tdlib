@@ -13,6 +13,9 @@
 https://hub.docker.com/r/jasonkhew96/tdlib
 
 # Shared Tags
+* [`1.7.9-alpine`, `latest-alpine`, `latest`][1.7.9-alpine-Dockerfile]
+* [`1.7.9-buster`, `latest-buster`][1.7.9-buster-Dockerfile]
+* [`1.7.9-buster-clang`, `latest-buster-clang`][1.7.9-buster-clang-Dockerfile]
 * [`1.7.8-alpine`, `latest-alpine`, `latest`][1.7.8-alpine-Dockerfile]
 * [`1.7.8-buster`, `latest-buster`][1.7.8-buster-Dockerfile]
 * [`1.7.8-buster-clang`, `latest-buster-clang`][1.7.8-buster-clang-Dockerfile]
@@ -31,6 +34,9 @@ TDLib (Telegram Database Library) is a cross-platform, fully functional Telegram
 
 https://core.telegram.org/tdlib
 
+[1.7.9-alpine-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.9/alpine/Dockerfile
+[1.7.9-buster-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.9/buster/Dockerfile
+[1.7.9-buster-clang-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.9/buster-clang/Dockerfile
 [1.7.8-alpine-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.8/alpine/Dockerfile
 [1.7.8-buster-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.8/buster/Dockerfile
 [1.7.8-buster-clang-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.8/buster-clang/Dockerfile

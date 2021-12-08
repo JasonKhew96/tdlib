@@ -13,6 +13,9 @@
 https://hub.docker.com/r/jasonkhew96/tdlib
 
 # Shared Tags
+* [`1.7.10-alpine`, `latest-alpine`, `latest`][1.7.10-alpine-Dockerfile]
+* [`1.7.10-buster`, `latest-buster`][1.7.10-buster-Dockerfile]
+* [`1.7.10-buster-clang`, `latest-buster-clang`][1.7.10-buster-clang-Dockerfile]
 * [`1.7.9-alpine`, `latest-alpine`, `latest`][1.7.9-alpine-Dockerfile]
 * [`1.7.9-buster`, `latest-buster`][1.7.9-buster-Dockerfile]
 * [`1.7.9-buster-clang`, `latest-buster-clang`][1.7.9-buster-clang-Dockerfile]
@@ -30,6 +33,9 @@ https://hub.docker.com/r/jasonkhew96/tdlib
 * [`1.7.4-buster`][1.7.4-buster-Dockerfile]
 
 # Husky's Custom Build Tags
+* [`1.7.10-alpine-husky`, `latest-alpine-husky`, `latest-husky`][1.7.10-alpine-Dockerfile]
+* [`1.7.10-buster-husky`, `latest-buster-husky`][1.7.10-buster-Dockerfile]
+* [`1.7.10-buster-clang-husky`, `latest-buster-clang-husky`][1.7.10-buster-clang-Dockerfile]
 * [`1.7.9-alpine-husky`, `latest-alpine-husky`, `latest-husky`][1.7.9-alpine-Dockerfile]
 * [`1.7.9-buster-husky`, `latest-buster-husky`][1.7.9-buster-Dockerfile]
 * [`1.7.9-buster-clang-husky`, `latest-buster-clang-husky`][1.7.9-buster-clang-Dockerfile]
@@ -39,6 +45,12 @@ TDLib (Telegram Database Library) is a cross-platform, fully functional Telegram
 
 https://core.telegram.org/tdlib
 
+[1.7.10-alpine-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.10/alpine/Dockerfile
+[1.7.10-buster-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.10/buster/Dockerfile
+[1.7.10-buster-clang-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.10/buster-clang/Dockerfile
+[1.7.10-alpine-husky-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.10/alpine-husky/Dockerfile
+[1.7.10-buster-husky-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.10/buster-husky/Dockerfile
+[1.7.10-buster-clang-husky-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.10/buster-clang-husky/Dockerfile
 [1.7.9-alpine-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.9/alpine/Dockerfile
 [1.7.9-buster-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.9/buster/Dockerfile
 [1.7.9-buster-clang-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.7.9/buster-clang/Dockerfile

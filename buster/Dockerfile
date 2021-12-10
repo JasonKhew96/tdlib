@@ -4,7 +4,7 @@ WORKDIR /
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y make git zlib1g-dev libssl-dev gperf php-cli cmake g++
+    apt-get install -y make git zlib1g-dev libssl-dev gperf cmake g++
 
 RUN git clone https://github.com/tdlib/td.git && \
     cd td && \

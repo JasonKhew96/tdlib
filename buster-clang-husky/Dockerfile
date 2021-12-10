@@ -4,7 +4,7 @@ WORKDIR /
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y make git zlib1g-dev libssl-dev gperf php-cli cmake clang libc++-dev libc++abi-dev
+    apt-get install -y make git zlib1g-dev libssl-dev gperf cmake clang libc++-dev libc++abi-dev
 
 RUN git clone https://github.com/c0re100/td.git && \
     cd td && \

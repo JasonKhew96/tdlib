@@ -14,4 +14,6 @@ RUN git clone https://github.com/c0re100/td.git && \
     mkdir build && \
     cd build && \
     cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr/local .. && \
-    cmake --build . --target install -j 2
+    cmake --build . --target install -j 2 && \
+    cd / && \
+    rm -rf /td/

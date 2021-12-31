@@ -8,7 +8,7 @@ RUN apt-get update && \
 
 RUN git clone https://github.com/tdlib/td.git && \
     cd td && \
-    git checkout 68212198a0e44086bd8a63d23365c3f56e391f0f && \
+    git checkout feffe4153d0d1da2abc1bd419bb1ed6a83896eb7 && \
     mkdir build && \
     cd build && \
     cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr/local .. && \

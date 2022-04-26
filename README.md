@@ -17,9 +17,12 @@
 https://hub.docker.com/r/jasonkhew96/tdlib
 
 # Shared Tags
-* [`1.8.1-alpine`, `latest-alpine`, `latest`][1.8.1-alpine-Dockerfile]
-* [`1.8.1-buster`, `latest-buster`][1.8.1-buster-Dockerfile]
-* [`1.8.1-buster-clang`, `latest-buster-clang`][1.8.1-buster-clang-Dockerfile]
+* [`1.8.3-alpine`, `latest-alpine`, `latest`][1.8.3-alpine-Dockerfile]
+* [`1.8.3-buster`, `latest-buster`][1.8.3-buster-Dockerfile]
+* [`1.8.3-buster-clang`, `latest-buster-clang`][1.8.3-buster-clang-Dockerfile]
+* [`1.8.1-alpine`][1.8.1-alpine-Dockerfile]
+* [`1.8.1-buster`][1.8.1-buster-Dockerfile]
+* [`1.8.1-buster-clang`][1.8.1-buster-clang-Dockerfile]
 * [`1.8.0-alpine`][1.8.0-alpine-Dockerfile]
 * [`1.8.0-buster`][1.8.0-buster-Dockerfile]
 * [`1.8.0-buster-clang`][1.8.0-buster-clang-Dockerfile]
@@ -43,9 +46,12 @@ https://hub.docker.com/r/jasonkhew96/tdlib
 * [`1.7.4-buster`][1.7.4-buster-Dockerfile]
 
 # Husky's Custom Build Tags
-* [`1.8.1-alpine-husky`, `latest-alpine-husky`, `latest-husky`][1.8.1-alpine-husky-Dockerfile]
-* [`1.8.1-buster-husky`, `latest-buster-husky`][1.8.1-buster-husky-Dockerfile]
-* [`1.8.1-buster-clang-husky`, `latest-buster-clang-husky`][1.8.1-buster-clang-husky-Dockerfile]
+* [`1.8.3-alpine-husky`, `latest-alpine-husky`, `latest-husky`][1.8.3-alpine-husky-Dockerfile]
+* [`1.8.3-buster-husky`, `latest-buster-husky`][1.8.3-buster-husky-Dockerfile]
+* [`1.8.3-buster-clang-husky`, `latest-buster-clang-husky`][1.8.3-buster-clang-husky-Dockerfile]
+* [`1.8.1-alpine-husky`][1.8.1-alpine-husky-Dockerfile]
+* [`1.8.1-buster-husky`][1.8.1-buster-husky-Dockerfile]
+* [`1.8.1-buster-clang-husky`][1.8.1-buster-clang-husky-Dockerfile]
 * [`1.8.0-alpine-husky`][1.8.0-alpine-husky-Dockerfile]
 * [`1.8.0-buster-husky`][1.8.0-buster-husky-Dockerfile]
 * [`1.8.0-buster-clang-husky`][1.8.0-buster-clang-husky-Dockerfile]
@@ -61,6 +67,12 @@ TDLib (Telegram Database Library) is a cross-platform, fully functional Telegram
 
 https://core.telegram.org/tdlib
 
+[1.8.3-alpine-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.3/alpine/Dockerfile
+[1.8.3-buster-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.3/buster/Dockerfile
+[1.8.3-buster-clang-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.3/buster-clang/Dockerfile
+[1.8.3-alpine-husky-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.3/alpine-husky/Dockerfile
+[1.8.3-buster-husky-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.3/buster-husky/Dockerfile
+[1.8.3-buster-clang-husky-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.3/buster-clang-husky/Dockerfile
 [1.8.1-alpine-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.1/alpine/Dockerfile
 [1.8.1-buster-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.1/buster/Dockerfile
 [1.8.1-buster-clang-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.1/buster-clang/Dockerfile

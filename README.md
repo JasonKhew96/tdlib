@@ -49,9 +49,12 @@ https://hub.docker.com/r/jasonkhew96/tdlib
 * [`1.7.4-buster`][1.7.4-buster-Dockerfile]
 
 # Husky's Custom Build Tags
-* [`1.8.3-alpine-husky`, `latest-alpine-husky`, `latest-husky`][1.8.3-alpine-husky-Dockerfile]
-* [`1.8.3-buster-husky`, `latest-buster-husky`][1.8.3-buster-husky-Dockerfile]
-* [`1.8.3-buster-clang-husky`, `latest-buster-clang-husky`][1.8.3-buster-clang-husky-Dockerfile]
+* [`1.8.4-alpine-husky`, `latest-alpine-husky`, `latest-husky`][1.8.4-alpine-husky-Dockerfile]
+* [`1.8.4-buster-husky`, `latest-buster-husky`][1.8.4-buster-husky-Dockerfile]
+* [`1.8.4-buster-clang-husky`, `latest-buster-clang-husky`][1.8.4-buster-clang-husky-Dockerfile]
+* [`1.8.3-alpine-husky`][1.8.3-alpine-husky-Dockerfile]
+* [`1.8.3-buster-husky`][1.8.3-buster-husky-Dockerfile]
+* [`1.8.3-buster-clang-husky`][1.8.3-buster-clang-husky-Dockerfile]
 * [`1.8.1-alpine-husky`][1.8.1-alpine-husky-Dockerfile]
 * [`1.8.1-buster-husky`][1.8.1-buster-husky-Dockerfile]
 * [`1.8.1-buster-clang-husky`][1.8.1-buster-clang-husky-Dockerfile]
@@ -70,6 +73,12 @@ TDLib (Telegram Database Library) is a cross-platform, fully functional Telegram
 
 https://core.telegram.org/tdlib
 
+[1.8.4-alpine-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.4/alpine/Dockerfile
+[1.8.4-buster-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.4/buster/Dockerfile
+[1.8.4-buster-clang-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.4/buster-clang/Dockerfile
+[1.8.4-alpine-husky-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.4/alpine-husky/Dockerfile
+[1.8.4-buster-husky-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.4/buster-husky/Dockerfile
+[1.8.4-buster-clang-husky-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.4/buster-clang-husky/Dockerfile
 [1.8.3-alpine-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.3/alpine/Dockerfile
 [1.8.3-buster-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.3/buster/Dockerfile
 [1.8.3-buster-clang-Dockerfile]: https://github.com/JasonKhew96/tdlib/blob/v1.8.3/buster-clang/Dockerfile

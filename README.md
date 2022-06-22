@@ -17,9 +17,12 @@
 https://hub.docker.com/r/jasonkhew96/tdlib
 
 # Shared Tags
-* [`1.8.3-alpine`, `latest-alpine`, `latest`][1.8.3-alpine-Dockerfile]
-* [`1.8.3-buster`, `latest-buster`][1.8.3-buster-Dockerfile]
-* [`1.8.3-buster-clang`, `latest-buster-clang`][1.8.3-buster-clang-Dockerfile]
+* [`1.8.4-alpine`, `latest-alpine`, `latest`][1.8.4-alpine-Dockerfile]
+* [`1.8.4-buster`, `latest-buster`][1.8.4-buster-Dockerfile]
+* [`1.8.4-buster-clang`, `latest-buster-clang`][1.8.4-buster-clang-Dockerfile]
+* [`1.8.3-alpine`][1.8.3-alpine-Dockerfile]
+* [`1.8.3-buster`][1.8.3-buster-Dockerfile]
+* [`1.8.3-buster-clang`][1.8.3-buster-clang-Dockerfile]
 * [`1.8.1-alpine`][1.8.1-alpine-Dockerfile]
 * [`1.8.1-buster`][1.8.1-buster-Dockerfile]
 * [`1.8.1-buster-clang`][1.8.1-buster-clang-Dockerfile]

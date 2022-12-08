@@ -8,7 +8,7 @@ RUN apt-get update && \
 
 RUN git clone https://github.com/tdlib/td.git && \
     cd td && \
-    git checkout bbe37ee594d97f3c7820dd23ebcd9c9b8dac51a0 && \
+    git checkout 9e524598a50820250961b3211ed5e6ed68aa0ad7 && \
     mkdir build && \
     cd build && \
     CXXFLAGS="-stdlib=libc++" CC=/usr/bin/clang CXX=/usr/bin/clang++ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr/local .. && \
